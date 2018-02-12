@@ -1,7 +1,118 @@
-@import "./components/App.scss";
+// @import "./components/App.scss";
+@import "variables.scss";
+
+html,
+body,
+.App {
+  height: 100%;
+}
 
 body {
   font-family: sans-serif;
-  margin: 0;
-  padding: 0;
+}
+
+.App {
+  background-image: url('/images/red-honeycomb.jpg');
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.Table {
+  background-color: #526F35	;
+  border: 4px double black;
+  border-radius: 50%;
+  height: 400px;
+  width: 800px;
+  position: relative;
+  margin: 0 auto;
+  box-shadow: 24px 26px 140px 0px rgba(0,0,0,0.75);
+
+}
+
+.seat {
+  position: absolute;
+
+  &.leftTop {
+    left: 10%;
+    top: 0;
+  }
+
+  &.left {
+    left: -10%;
+    top: 50%;
+  }
+
+  &.leftBottom {
+    bottom: 0;
+    left: 10%;
+  }
+
+  &.rightBottom {
+    bottom: 0;
+    right: 10%;
+  }
+
+  &.right {
+    right: -10%;
+    top: 50%;
+  }
+
+  &.rightTop {
+    right: 10%;
+    top: 0;
+  }
+
+  .avatar {
+    background-color: $white;
+    background-image: url('/images/player-john@2x.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    border-radius: 50%;
+    border-style: solid;
+    bottom: -5px;
+    height: 60px;
+    left: -50px;
+    position: absolute;
+    width: 60px;
+  }
+
+  .card {
+    background-repeat: no-repeat;
+    background-image: url('/images/card-back-skull.jpg');
+    background-size: 49px auto;
+    border-style: hidden;
+    display: inline-block;
+    height: 30px;
+    width: 49px;
+  }
+
+  .playerBox {
+    background-color: rgba(60, 60, 60, 0.6);
+    color: $macchiato;
+    height: 50px;
+    text-align: center;
+    width: 100px;
+  }
+
+  .playerBox hr {
+    margin: 3px 0;
+  }
+}
+
+.board {
+  left: 240px;
+  position: absolute;
+  top: 160px;
+}
+
+.board .card {
+  background-repeat: no-repeat;
+  background-size: 70px 100px;
+  border-style: hidden;
+  display: inline-block;
+  height: 100px;
+  width: 70px;
+  // box-shadow: 24px 26px 140px 0px rgba(0,0,0,0.75);
 }

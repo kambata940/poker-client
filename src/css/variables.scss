@@ -1,0 +1,70 @@
+$white:         #fff;
+$black:         #000;
+
+$macchiato:     #f6f3f3;
+
+$dusty-orange:  #f47c46;
+$sandy-brown:   #f3a957;
+$supernova:     #ffb93b;
+$yellow:        #f1d668;
+
+$light-gray:    #999;
+$gray:          #7c7c7c;
+$dark-gray:     #3c3c3c;
+
+$avocado:       #87c233;
+$jade:          #2bb45c;
+
+$outer-space:   #2c3538;
+$gray-blue:     #7e868f;
+
+$purple:        #885ead;
+$brown:         #2f1000;
+$burgundy:      #840032;
+$pink:          #ff69b4;
+
+$terra-cotta:   #d04f3a;
+
+$border-gray:   tint($light-gray, 50%);
+
+$gui-gray:       $gray-blue;
+$gui-gray-light: tint($gui-gray, 10%);
+$gui-gray-dark:  shade($gui-gray, 17%);
+
+$bookkeeper-blue: #4499ae;
+
+// Junk colors to sort out now
+$lighter-gray:    #939aa1;
+$lighter3-gray:   #e5e5e5;
+$lighter4-gray:   #e9e9e9;
+$lighter5-gray:   #f4f4f4;
+$lighter7-gray:   #f2f2f2;
+$lighter8-gray:   #e8e8e7;
+$light2-gray:     #73787a;
+$light3-gray:     #f8f8f8;
+$light5-gray:     #d4d4d4;
+$light6-gray:     #d1d0cf;
+$dark1-gray:      #d3d3d3;
+$dark2-gray:      #afb3b5;
+$dark3-gray:      #81828b;
+$dark5-gray:      #999;
+$darker-gray:     #38393e;
+$darker5-gray:    #535353;
+
+$lighter-blue:    #61bbf7;
+$light-blue:      #00b4ff;
+$light2-blue:     #00a7d2;
+$dark-blue:       #5cafc5;
+$darker-blue:     #5d6773;
+$darker3-blue:    #4d85c5;
+$darker4-blue:    #7b8591;
+$darkest2-blue:   #3d3e42;
+
+$lighter-black:   #636159;
+$light-black:     #3c3c3c;
+$light2-black:    #404145;
+
+$table-head:      #2a2a2a;
+
+$teal:            #07d4ca;
+$turquoise:       #04c4bb;

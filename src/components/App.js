@@ -1,17 +1,14 @@
-import React, { Component } from 'react';
-import logo from '../logo.svg';
+import React from 'react';
+import TableContainer from './TableContainer';
+import {DEFAULT_STATE} from '../constants';
 
-class App extends Component {
+class App extends React.Component {
   render() {
+    const CURRENT_PLAYER_ID = 0;
+
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <TableContainer gameState={DEFAULT_STATE} currentPlayerID={CURRENT_PLAYER_ID} />
       </div>
     );
   }
